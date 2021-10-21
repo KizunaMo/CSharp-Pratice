@@ -6,7 +6,14 @@ namespace Interface_Strategy_Design_Pattern
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+
+            IronMan ironMan = new IronMan(new IronMAnType());
+            ironMan.FlyMethod();
+
+
+            TheAvengers hulk = new Hulk(new CanNotFly());
+            hulk.FlyMethod();
+
         }
     }
 }

@@ -1,0 +1,14 @@
+D:\資策會\Unity線上課\C#線上課\Practice\Interface Strategy Design Pattern\bin\Debug\netcoreapp3.1\Interface Strategy Design Pattern.exe
+D:\資策會\Unity線上課\C#線上課\Practice\Interface Strategy Design Pattern\bin\Debug\netcoreapp3.1\Interface Strategy Design Pattern.deps.json
+D:\資策會\Unity線上課\C#線上課\Practice\Interface Strategy Design Pattern\bin\Debug\netcoreapp3.1\Interface Strategy Design Pattern.runtimeconfig.json
+D:\資策會\Unity線上課\C#線上課\Practice\Interface Strategy Design Pattern\bin\Debug\netcoreapp3.1\Interface Strategy Design Pattern.runtimeconfig.dev.json
+D:\資策會\Unity線上課\C#線上課\Practice\Interface Strategy Design Pattern\bin\Debug\netcoreapp3.1\Interface Strategy Design Pattern.dll
+D:\資策會\Unity線上課\C#線上課\Practice\Interface Strategy Design Pattern\bin\Debug\netcoreapp3.1\Interface Strategy Design Pattern.pdb
+D:\資策會\Unity線上課\C#線上課\Practice\Interface Strategy Design Pattern\obj\Debug\netcoreapp3.1\Interface Strategy Design Pattern.csproj.AssemblyReference.cache
+D:\資策會\Unity線上課\C#線上課\Practice\Interface Strategy Design Pattern\obj\Debug\netcoreapp3.1\Interface Strategy Design Pattern.GeneratedMSBuildEditorConfig.editorconfig
+D:\資策會\Unity線上課\C#線上課\Practice\Interface Strategy Design Pattern\obj\Debug\netcoreapp3.1\Interface Strategy Design Pattern.AssemblyInfoInputs.cache
+D:\資策會\Unity線上課\C#線上課\Practice\Interface Strategy Design Pattern\obj\Debug\netcoreapp3.1\Interface Strategy Design Pattern.AssemblyInfo.cs
+D:\資策會\Unity線上課\C#線上課\Practice\Interface Strategy Design Pattern\obj\Debug\netcoreapp3.1\Interface Strategy Design Pattern.csproj.CoreCompileInputs.cache
+D:\資策會\Unity線上課\C#線上課\Practice\Interface Strategy Design Pattern\obj\Debug\netcoreapp3.1\Interface Strategy Design Pattern.dll
+D:\資策會\Unity線上課\C#線上課\Practice\Interface Strategy Design Pattern\obj\Debug\netcoreapp3.1\Interface Strategy Design Pattern.pdb
+D:\資策會\Unity線上課\C#線上課\Practice\Interface Strategy Design Pattern\obj\Debug\netcoreapp3.1\Interface Strategy Design Pattern.genruntimeconfig.cache
