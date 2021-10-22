@@ -11,7 +11,9 @@ namespace Interface_Strategy_Design_Pattern
 
 
 
-
+    /// <summary>
+    /// 不能飛行
+    /// </summary>
     class CanNotFly : IFly
     {
         public void FlyMethod()
@@ -19,7 +21,9 @@ namespace Interface_Strategy_Design_Pattern
             Console.WriteLine($"CanNotLly");
         }
     }
-
+    /// <summary>
+    /// 鋼鐵人模式
+    /// </summary>
     class IronMAnType : IFly
     {
         public void FlyMethod()
@@ -27,7 +31,9 @@ namespace Interface_Strategy_Design_Pattern
             Console.WriteLine($"FlyByIronManType");
         }
     }
-
+    /// <summary>
+    /// 索爾模式
+    /// </summary>
     class ThorType : IFly
     {
         public void FlyMethod()

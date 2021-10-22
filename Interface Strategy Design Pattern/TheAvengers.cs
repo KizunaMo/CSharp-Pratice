@@ -8,7 +8,6 @@ namespace Interface_Strategy_Design_Pattern
     {
         private IFly flyBehavior;
 
-
         public TheAvengers(IFly flyBehavior)
         {
             this.flyBehavior = flyBehavior;
@@ -17,6 +16,10 @@ namespace Interface_Strategy_Design_Pattern
         public void FlyMethod()
         {
             this.flyBehavior.FlyMethod();
+        }
+        public void FlyMethod1()
+        {
+            flyBehavior.FlyMethod();
         }
 
 

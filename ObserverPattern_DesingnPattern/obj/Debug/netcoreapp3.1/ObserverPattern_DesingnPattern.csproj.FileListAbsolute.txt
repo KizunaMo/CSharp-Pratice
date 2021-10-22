@@ -1,0 +1,14 @@
+D:\資策會\Unity線上課\C#線上課\Practice\ObserverPattern_DesingnPattern\bin\Debug\netcoreapp3.1\ObserverPattern_DesingnPattern.exe
+D:\資策會\Unity線上課\C#線上課\Practice\ObserverPattern_DesingnPattern\bin\Debug\netcoreapp3.1\ObserverPattern_DesingnPattern.deps.json
+D:\資策會\Unity線上課\C#線上課\Practice\ObserverPattern_DesingnPattern\bin\Debug\netcoreapp3.1\ObserverPattern_DesingnPattern.runtimeconfig.json
+D:\資策會\Unity線上課\C#線上課\Practice\ObserverPattern_DesingnPattern\bin\Debug\netcoreapp3.1\ObserverPattern_DesingnPattern.runtimeconfig.dev.json
+D:\資策會\Unity線上課\C#線上課\Practice\ObserverPattern_DesingnPattern\bin\Debug\netcoreapp3.1\ObserverPattern_DesingnPattern.dll
+D:\資策會\Unity線上課\C#線上課\Practice\ObserverPattern_DesingnPattern\bin\Debug\netcoreapp3.1\ObserverPattern_DesingnPattern.pdb
+D:\資策會\Unity線上課\C#線上課\Practice\ObserverPattern_DesingnPattern\obj\Debug\netcoreapp3.1\ObserverPattern_DesingnPattern.csproj.AssemblyReference.cache
+D:\資策會\Unity線上課\C#線上課\Practice\ObserverPattern_DesingnPattern\obj\Debug\netcoreapp3.1\ObserverPattern_DesingnPattern.GeneratedMSBuildEditorConfig.editorconfig
+D:\資策會\Unity線上課\C#線上課\Practice\ObserverPattern_DesingnPattern\obj\Debug\netcoreapp3.1\ObserverPattern_DesingnPattern.AssemblyInfoInputs.cache
+D:\資策會\Unity線上課\C#線上課\Practice\ObserverPattern_DesingnPattern\obj\Debug\netcoreapp3.1\ObserverPattern_DesingnPattern.AssemblyInfo.cs
+D:\資策會\Unity線上課\C#線上課\Practice\ObserverPattern_DesingnPattern\obj\Debug\netcoreapp3.1\ObserverPattern_DesingnPattern.csproj.CoreCompileInputs.cache
+D:\資策會\Unity線上課\C#線上課\Practice\ObserverPattern_DesingnPattern\obj\Debug\netcoreapp3.1\ObserverPattern_DesingnPattern.dll
+D:\資策會\Unity線上課\C#線上課\Practice\ObserverPattern_DesingnPattern\obj\Debug\netcoreapp3.1\ObserverPattern_DesingnPattern.pdb
+D:\資策會\Unity線上課\C#線上課\Practice\ObserverPattern_DesingnPattern\obj\Debug\netcoreapp3.1\ObserverPattern_DesingnPattern.genruntimeconfig.cache
