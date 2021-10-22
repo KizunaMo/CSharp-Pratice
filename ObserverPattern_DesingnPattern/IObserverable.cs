@@ -8,6 +8,6 @@ namespace ObserverPattern_DesingnPattern
     {
         public void Add(IObserver observer);
         public void Remove(IObserver observer);
-        public void NotifyObservers(string content);
+        public void NotifyObservers();
     }
 }

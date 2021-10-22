@@ -6,6 +6,6 @@ namespace ObserverPattern_DesingnPattern
 {
     interface IObserver
     {
-        public void Update(string content);
+        public void Update();
     }
 }

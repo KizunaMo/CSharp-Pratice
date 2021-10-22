@@ -29,14 +29,13 @@ namespace ObserverPattern_DesingnPattern
         /// 刷新狀態
         /// </summary>
         /// <param name="context"></param>
-        public void NotifyObservers(string context)
+        public void NotifyObservers()
         {
             foreach (IObserver observer in list)
             {
-                observer.Update(context);
+                observer.Update();
             }
         }
-
         /// <summary>
         /// 做出訂閱的動作
         /// </summary>
@@ -57,10 +56,15 @@ namespace ObserverPattern_DesingnPattern
         /// 發送訊息
         /// </summary>
         /// <param name="content"></param>
-        public void SendMensange(string content)
+        public void SendMensange()
         {
-            Console.WriteLine($"發送消息...");
-            NotifyObservers(content);
+            Console.WriteLine($"發送消息...目前有訂閱的成員");
+            NotifyObservers();
+        }
+
+        public void TEST()
+        {
+            Console.WriteLine($"目前總訂閱人數{list.Count}");
         }
     }
 }

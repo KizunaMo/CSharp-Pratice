@@ -8,13 +8,15 @@ namespace ObserverPattern_DesingnPattern
         {
 
             Youtube youtube = new Youtube();
-            Client clientA = new Client("蔡阿嘎");
-            Client clientB = new Client("瓜及");
+            Client clientA = new Client(youtube,"蔡阿嘎");
+            Client clientB = new Client(youtube,"瓜及");
             youtube.Subscribe(clientA);
             youtube.Subscribe(clientB);
-            youtube.SendMensange("");
+            youtube.SendMensange();
+            youtube.TEST();
             youtube.Unsubscribe(clientB);
-            youtube.SendMensange("");
+            youtube.SendMensange();
+            youtube.TEST();
         }
     }
 }
