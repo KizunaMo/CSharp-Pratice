@@ -18,12 +18,14 @@ namespace VectorPractice
             
 
         }
-
+        /// <summary>
+        ///  1.假設知道單位圓夾角 求三角形一邊頂點座標(X,Y)
+        ///  2.注意角度轉弧度的關係 ： var radian = (angle * Math.PI) / 180;  弧長算換角度radian→angle
+        ///  3.一個圓的弧長是2π  radian表示佔據一個圓多少比例的弧長
+        /// </summary>
         static public void Practice1()
         {
-            //假設知道單位圓夾角 求三角形一邊頂點座標(X,Y)
-            //角度轉弧度var radian = (angle * Math.PI) / 180;  弧長算換角度radian→angle
-            //一個圓的弧長是2π  radian表示佔據一個圓多少比例的弧長
+           
             Console.WriteLine($"輸入夾角");
             string cmd = Console.ReadLine();
             float cmdAngle;
@@ -34,10 +36,11 @@ namespace VectorPractice
                 Console.WriteLine($"單位圓XY座標{xy}\nX=cosΘ(長度){xy.X}\nY=sinΘ(長度){xy.Y}");
             }
         }
-
+        /// <summary>
+        /// 假設知道物件座標，求角度
+        /// </summary>
         static public void Practice2()
         {
-            //假設知道物件座標，求角度
             Console.WriteLine($"輸入X座標");
             string vectorX = Console.ReadLine();
             Console.WriteLine($"輸入Y座標");
@@ -52,5 +55,18 @@ namespace VectorPractice
                 Console.WriteLine($"Θ角度={angle}");
             }
         }
+
+
+
+
+
+
+
+
+
+
+
+
+
     }
 }
