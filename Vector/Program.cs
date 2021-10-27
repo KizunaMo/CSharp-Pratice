@@ -9,9 +9,6 @@ namespace VectorPractice
 
         static void Main(string[] args)
         {
-            //練習 向量計算
-            Vector3 a;
-            Vector3 b;
 
             Practice1();
             Practice2();
