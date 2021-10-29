@@ -17,12 +17,40 @@ namespace ConsoleApp2
             status2 = Convert.ToString(status, 2);
             Console.WriteLine(status2);
 
+            //Base(基底函式) b = new Dev(衍生)
             Father father = new Son();
-            Son son = new Son();
-            father.AI();
-            son.AI();
+            //基底:非虛擬函式 virtual ; 衍生:非虛擬函式
             father.NotVirtual();
+
+            //Base(基底) b = new Base
+            Father father1 = new Father();
+            //基底:非虛擬函式 virtual ; 衍生:非虛擬函式
+            father.NotVirtual();
+
+            //Base(基底函式) b = new Dev(衍生)
+            Father father2 = new Son();
+            //基底:虛擬函式  衍生:複寫虛擬函式override
+            father2.Virtual();
+
+            //Base(基底) b = new Base
+            Father father3 = new Father();
+            //基底:虛擬函式  衍生: 非複寫虛擬函式override(((編譯不會過)))
+            //father3.Virtual();
+
+            //Dev b = new Dev()
+            Son son = new Son();
+            //基底:非虛擬韓式  衍生:非虛擬函式
             son.NotVirtual();
+
+            //Dev b = new Base()
+            //Son son1 = new Father();//編譯不會過
+
+
+            //Dev b = new Dev()
+            Son son2 = new Son();
+            //基底 : 虛擬函式  衍生:  複寫虛擬函式
+            son.Virtual();
+
         }
 
         /// <summary>
@@ -85,20 +113,28 @@ namespace ConsoleApp2
         /// </summary>
         public class Father
         {
-            public virtual void AI()
+            public virtual void Virtual()//虛擬函式
             {
             }
-            public void NotVirtual()
+            public void NotVirtual()//非虛擬函式
             {
             }
         }
 
         class Son : Father
         {
-            public override void AI()
+            public override void Virtual()//複寫虛擬函式
             {
-                base.AI();
+                base.Virtual();
             }
+            public void NotVirtual()//非複寫虛擬函式
+            {
+
+            }
+            //public void Virtual()基底:虛擬函式  衍生: 非複寫虛擬函式override(((編譯不會過)))
+            //{
+
+            //}
         }
 
 
