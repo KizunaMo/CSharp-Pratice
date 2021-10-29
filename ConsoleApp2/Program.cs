@@ -17,6 +17,12 @@ namespace ConsoleApp2
             status2 = Convert.ToString(status, 2);
             Console.WriteLine(status2);
 
+            Father father = new Son();
+            Son son = new Son();
+            father.AI();
+            son.AI();
+            father.NotVirtual();
+            son.NotVirtual();
         }
 
         /// <summary>
@@ -32,7 +38,7 @@ namespace ConsoleApp2
         /// <summary>
         /// (衍生)
         /// </summary>
-        class Mob:NPC
+        class Mob : NPC
         {
             /// <summary>
             /// 衍生類別
@@ -57,7 +63,7 @@ namespace ConsoleApp2
                 NPC npc = new NPC();
                 //npc.a = 15; private 摸不到
                 //npc.b = 15; protected 摸不到
-                npc.c = 15; 
+                npc.c = 15;
             }
             /// <summary>
             /// 外部對衍生
@@ -73,5 +79,28 @@ namespace ConsoleApp2
                 mob1.c = 15; //同樣只能摸public 
             }
         }
+
+        /// <summary>
+        /// 練習繼承與函式，動態與靜態的綁定關係
+        /// </summary>
+        public class Father
+        {
+            public virtual void AI()
+            {
+            }
+            public void NotVirtual()
+            {
+            }
+        }
+
+        class Son : Father
+        {
+            public override void AI()
+            {
+                base.AI();
+            }
+        }
+
+
     }
 }

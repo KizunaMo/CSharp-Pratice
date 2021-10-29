@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\資策會\\Unity線上課\\C#線上課\\Practice\\ConsoleApp2\\ConsoleApp2.csproj": {}
+    "D:\\資策會\\Unity線上課\\C#線上課\\Practice\\ClassLibrary1\\ClassLibrary1.csproj": {}
   },
   "projects": {
-    "D:\\資策會\\Unity線上課\\C#線上課\\Practice\\ConsoleApp2\\ConsoleApp2.csproj": {
+    "D:\\資策會\\Unity線上課\\C#線上課\\Practice\\ClassLibrary1\\ClassLibrary1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\資策會\\Unity線上課\\C#線上課\\Practice\\ConsoleApp2\\ConsoleApp2.csproj",
-        "projectName": "ConsoleApp2",
-        "projectPath": "D:\\資策會\\Unity線上課\\C#線上課\\Practice\\ConsoleApp2\\ConsoleApp2.csproj",
+        "projectUniqueName": "D:\\資策會\\Unity線上課\\C#線上課\\Practice\\ClassLibrary1\\ClassLibrary1.csproj",
+        "projectName": "ClassLibrary1",
+        "projectPath": "D:\\資策會\\Unity線上課\\C#線上課\\Practice\\ClassLibrary1\\ClassLibrary1.csproj",
         "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "D:\\資策會\\Unity線上課\\C#線上課\\Practice\\ConsoleApp2\\obj\\",
+        "outputPath": "D:\\資策會\\Unity線上課\\C#線上課\\Practice\\ClassLibrary1\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
