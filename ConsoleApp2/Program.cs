@@ -6,6 +6,7 @@ namespace ConsoleApp2
     {
         static void Main(string[] args)
         {
+            //Part1 利用位元運算 處理狀態變化
             int posion = 0b_0010;
             int status = 0;
 
@@ -17,6 +18,8 @@ namespace ConsoleApp2
             status2 = Convert.ToString(status, 2);
             Console.WriteLine(status2);
 
+
+            //Part2 基底與衍生引用的關係(繼承的可見姓)
             //Base(基底函式) b = new Dev(衍生)
             Father father = new Son();
             //基底:非虛擬函式 virtual ; 衍生:非虛擬函式
@@ -50,6 +53,11 @@ namespace ConsoleApp2
             Son son2 = new Son();
             //基底 : 虛擬函式  衍生:  複寫虛擬函式
             son.Virtual();
+
+            //Part3
+            //練習索引運算子
+            Map map = new Map(100, 100);
+            map[1, 1] = 10;
 
         }
 
@@ -136,6 +144,47 @@ namespace ConsoleApp2
 
             //}
         }
+
+
+        /// <summary>
+        /// Part3
+        /// </summary>
+        class Map
+        {
+            int[][] data;//多維陣列第一種方式，依據設定決定形狀
+            int[,] data2;//多維陣列第二種方式，直接列出一個矩陣
+            int dx;
+            int dy;
+            public Map(int dx, int dy)
+            {
+                this.dx = dx;
+                this.dy = dy;
+                data = new int[dx][];//第一種方式先列出其中一段數列
+                for (int i = 0; i < dx; i++)
+                {
+                    data[i] = new int[dy];//在每一個數列中再列出一段數列
+                }
+
+                data[1][4] = 10;//覆值 在數列(1,4)這個位置覆值為10;
+
+                data2 = new int[dx, dy];
+                data2[1, 4] = 10;
+            }
+            /// <summary>
+            /// 練習 索引運算子
+            /// </summary>
+            public int this[int x, int y]
+            {
+                get
+                {
+                    if (!(x >= 0 && x < dx && y > 0 && y < dy))
+                        throw new Exception();
+                    return data2[x, y];
+                }
+                set { data2[x, y] = value; }
+            }
+        }
+
 
 
     }
