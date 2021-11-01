@@ -59,6 +59,21 @@ namespace Delegate
 
             cat.Calculate(cat => cat.name);
             cat.Calculate(cat => cat.name = "LastCat");
+
+            //練習2021/11/01
+            List<Mob> mobs = new List<Mob>();
+            mobs.Add(new Mob());
+            Action<Mob,int> setMobHp = GetMobHp;
+            setMobHp = (x, y) => { mobs[0].SetHp(y);};
+            setMobHp(mobs[0],900);
+            Func<Mob, int,int> getMobHp = GetMobHpFunc;
+            getMobHp = (x, y) => { return x.SetHp(y*10); };
+
+            
+            Console.WriteLine($"DeBug{getMobHp(mobs[0],999)}");
+            mobs.Add(new Mob());
+            Console.WriteLine($"{mobs[1].GetHp()}");
+            Console.WriteLine($"{getMobHp(mobs[1],3000)}");//透過Func功能直接修改
         }
 
         private static void SomeMethod()
@@ -98,6 +113,19 @@ namespace Delegate
 
             Console.WriteLine($"{resultName}");
         }
+
+
+        private static void GetMobHp(Mob mob,int mobHp)
+        {
+            mob.SetHp(mobHp);
+            Console.WriteLine($"設定該怪物血量為{mob.SetHp(mobHp)}");
+        }
+        private static int GetMobHpFunc(Mob mob, int mobHp)
+        {
+            Console.WriteLine($"設定該怪物血量為{mob.SetHp(mobHp)}");
+            return mob.SetHp(mobHp);
+        }
+
 
     }
 }
