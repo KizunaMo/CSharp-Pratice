@@ -9,6 +9,8 @@ namespace Delegate
         //用Lambda的寫法
         public Action talk { set; private get; }
         private int hp = 1;
+        private int mp = 10;
+        public int Mp { set { mp = Mp; } get { return mp; } }
 
         public void ToTalk()
         {
@@ -26,8 +28,16 @@ namespace Delegate
             return hp;
         }
 
+        public void AddMp(int number)
+        {
+            Console.WriteLine($"被增加魔力{number}點");
+            this.mp += number;
+        }
 
-
+        public void AddOtherMp(Action<int> action , int howMuchMp)
+        {
+            action(howMuchMp);
+        }
 
     }
 }

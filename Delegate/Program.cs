@@ -74,6 +74,16 @@ namespace Delegate
             mobs.Add(new Mob());
             Console.WriteLine($"{mobs[1].GetHp()}");
             Console.WriteLine($"{getMobHp(mobs[1],3000)}");//透過Func功能直接修改
+
+            //練習跨類別傳遞
+            Passenger passenger = new Passenger();
+            Gossiping gossiping = new Gossiping();
+            gossiping.Notify(passenger.RecrviveNews, " : 透過路人接收訊息的能力傳送一則訊息給他");
+
+            npc.AddOtherMp(mob.AddMp,100);//NPC給MOB加魔力
+            Console.WriteLine($"{mob.Mp}");
+            mob.AddOtherMp(npc.AddMp, 30);
+            Console.WriteLine($"{npc.Mp}");
         }
 
         private static void SomeMethod()
@@ -126,6 +136,8 @@ namespace Delegate
             return mob.SetHp(mobHp);
         }
 
+
+       
 
     }
 }
