@@ -39,5 +39,14 @@ namespace Delegate
             action(howMuchMp);
         }
 
+        /// <summary>
+        /// 怪獸掉落物品
+        /// </summary>
+        /// <param name="action">誰獲得這項物品</param>
+        /// <param name="item">掉落什麼物品</param>
+        public void DropItem(Action<Item,Bag> action,Item item,Bag bag)
+        {
+            action(item,bag);
+        }
     }
 }

@@ -12,6 +12,9 @@ namespace Delegate
 
         private int mp = 0;
         public int Mp { set { mp = Mp; } get { return mp; } }
+
+        private Bag bag;
+
         public void ToTalk()
         {
             talk();
@@ -36,5 +39,14 @@ namespace Delegate
         {
             mp += number;
         }
+
+        public void GetItem(Item item,Bag bag)
+        {
+            this.bag = bag;
+            List<Item> items = new List<Item>();
+            Console.WriteLine($"NPC get {item.Name}!");
+            this.bag.SaveItem(item,items);
+        }
+
     }
 }

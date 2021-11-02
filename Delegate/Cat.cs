@@ -18,7 +18,6 @@ namespace Delegate
             Cat cat = new Cat();
             name = func(cat);
 
-
             Console.WriteLine($"{name}");
         }
     }

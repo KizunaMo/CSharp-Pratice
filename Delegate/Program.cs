@@ -84,6 +84,10 @@ namespace Delegate
             Console.WriteLine($"{mob.Mp}");
             mob.AddOtherMp(npc.AddMp, 30);
             Console.WriteLine($"{npc.Mp}");
+
+            Bag npcBag = new Bag();
+            mob.DropItem(npc.GetItem, Item.Product(Item.itemID.Apple),npcBag);
+            mob.DropItem(npc.GetItem, Item.Product(Item.itemID.Orange), npcBag);
         }
 
         private static void SomeMethod()
