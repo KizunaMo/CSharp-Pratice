@@ -14,6 +14,7 @@ namespace Delegate
         public int Mp { set { mp = Mp; } get { return mp; } }
 
         private Bag bag;
+        public List<Item> npcBag = new List<Item>();
 
         public void ToTalk()
         {
@@ -30,7 +31,6 @@ namespace Delegate
             Console.WriteLine("Good Job");
         }
 
-
         public void AddOtherMp(Action<int> action,int number)
         {
             action(number);
@@ -43,10 +43,8 @@ namespace Delegate
         public void GetItem(Item item,Bag bag)
         {
             this.bag = bag;
-            List<Item> items = new List<Item>();
             Console.WriteLine($"NPC get {item.Name}!");
-            this.bag.SaveItem(item,items);
+            this.bag.SaveItem(item,npcBag);
         }
-
     }
 }

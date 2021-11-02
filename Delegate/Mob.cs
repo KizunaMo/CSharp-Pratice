@@ -42,8 +42,9 @@ namespace Delegate
         /// <summary>
         /// 怪獸掉落物品
         /// </summary>
-        /// <param name="action">誰獲得這項物品</param>
-        /// <param name="item">掉落什麼物品</param>
+        /// <param name="action">誰獲得物品</param>
+        /// <param name="item">獲得什麼物品</param>
+        /// <param name="bag">物品放進哪個背包</param>
         public void DropItem(Action<Item,Bag> action,Item item,Bag bag)
         {
             action(item,bag);

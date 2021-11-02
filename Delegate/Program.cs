@@ -19,10 +19,8 @@ namespace Delegate
             mob.ToTalk();
             mob.talk = () => { Console.WriteLine("Good Job"); };
             mob.ToTalk();
-
-
-
             Action action = SomeMethod;
+
             action();
 
             Action<int> action1 = SomeMethod;
@@ -68,7 +66,6 @@ namespace Delegate
             setMobHp(mobs[0],900);
             Func<Mob, int,int> getMobHp = GetMobHpFunc;
             getMobHp = (x, y) => { return x.SetHp(y*10); };
-
             
             Console.WriteLine($"DeBug{getMobHp(mobs[0],999)}");
             mobs.Add(new Mob());
@@ -85,9 +82,16 @@ namespace Delegate
             mob.AddOtherMp(npc.AddMp, 30);
             Console.WriteLine($"{npc.Mp}");
 
+            //練習 試著寫看看怪物掉落物品，背包存取物品的方法;
             Bag npcBag = new Bag();
             mob.DropItem(npc.GetItem, Item.Product(Item.itemID.Apple),npcBag);
             mob.DropItem(npc.GetItem, Item.Product(Item.itemID.Orange), npcBag);
+            npcBag.ShowItems();
+            Bag passengerBag = new Bag();
+            mob.DropItem(passenger.GetItem, Item.Product(Item.itemID.Gun), passengerBag);
+            passengerBag.ShowItems();
+
+            Console.WriteLine($"Check");
         }
 
         private static void SomeMethod()

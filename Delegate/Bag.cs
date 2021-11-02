@@ -6,12 +6,12 @@ namespace Delegate
 {
     class Bag
     {
-        private List<Item> items;
+        private List<Item> bag;
 
-        public void SaveItem(Item item,List<Item> items)
+        public void SaveItem(Item item,List<Item> roleBag)
         {
-            this.items = items;
-            items.Add(item);
+            this.bag = roleBag;
+            roleBag.Add(item);
             Console.WriteLine($"背包儲存了一個{item.Name}");
         }
 
@@ -22,9 +22,9 @@ namespace Delegate
 
         public void ShowItems()
         {
-            for (int i = 0; i < items.Count; i++)
+            for (int i = 0; i < bag.Count; i++)
             {
-                Console.WriteLine($"{items[i].Name}");
+                Console.WriteLine($"{bag[i].Name}");
             }
         }
     }

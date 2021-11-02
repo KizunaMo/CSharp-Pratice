@@ -18,6 +18,8 @@ namespace Delegate
             Nothing,
             Apple ,
             Orange,
+            Gun,
+            Sugar,
             Count,
         }
         public static Item Product(itemID itemID)
