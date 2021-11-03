@@ -109,6 +109,18 @@ namespace Delegate
             TryMerge(randomNumbers);
             Console.WriteLine($"---------");
 
+            //測試Swap
+            int a = 10;
+            int b = 12;
+            Console.WriteLine($"a:{a},b:{b}");
+            Swapper.Swap(ref a,ref b);
+            Console.WriteLine($"After Swap \na:{a},b:{b}");
+            Item item1 = new Item(Item.itemID.Apple);
+            Item item2 = new Item(Item.itemID.Orange);
+            Console.WriteLine($"FirstItem : {item1.Name}  ,  SecondItem : {item2.Name}");
+            Swapper.Swap(ref item1, ref item2);
+            Console.WriteLine($"After Swap \nFirstItem : {item1.Name}  ,  SecondItem : {item2.Name}");
+
         }
 
         private static void TryMerge(int[] numbers)
