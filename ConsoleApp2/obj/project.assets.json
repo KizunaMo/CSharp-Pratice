@@ -1,11 +1,62 @@
 {
   "version": 3,
   "targets": {
-    ".NETCoreApp,Version=v3.1": {}
+    ".NETCoreApp,Version=v3.1": {
+      "MathNet.Numerics/4.15.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/MathNet.Numerics.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/MathNet.Numerics.dll": {}
+        }
+      },
+      "Algorithms/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.1",
+        "dependencies": {
+          "MathNet.Numerics": "4.15.0"
+        },
+        "compile": {
+          "bin/placeholder/Algorithms.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Algorithms.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "MathNet.Numerics/4.15.0": {
+      "sha512": "cP4QgPPiU7boMyL8npvuQyVGVYUd/JQY1AWa+Wl2f//fuJN40qwt9ABRazunZIcDLHg3SSlgD/e+3Lnp69jNTg==",
+      "type": "package",
+      "path": "mathnet.numerics/4.15.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "icon.png",
+        "lib/net40/MathNet.Numerics.dll",
+        "lib/net40/MathNet.Numerics.xml",
+        "lib/net461/MathNet.Numerics.dll",
+        "lib/net461/MathNet.Numerics.xml",
+        "lib/netstandard1.3/MathNet.Numerics.dll",
+        "lib/netstandard1.3/MathNet.Numerics.xml",
+        "lib/netstandard2.0/MathNet.Numerics.dll",
+        "lib/netstandard2.0/MathNet.Numerics.xml",
+        "mathnet.numerics.4.15.0.nupkg.sha512",
+        "mathnet.numerics.nuspec"
+      ]
+    },
+    "Algorithms/1.0.0": {
+      "type": "project",
+      "path": "../Algorithms/Algorithms.csproj",
+      "msbuildProject": "../Algorithms/Algorithms.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    ".NETCoreApp,Version=v3.1": []
+    ".NETCoreApp,Version=v3.1": [
+      "Algorithms >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\user\\.nuget\\packages\\": {},
@@ -15,11 +66,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Practice\\ConsoleApp2\\ConsoleApp2.csproj",
+      "projectUniqueName": "D:\\CSharpPractice\\ConsoleApp2\\ConsoleApp2.csproj",
       "projectName": "ConsoleApp2",
-      "projectPath": "D:\\Practice\\ConsoleApp2\\ConsoleApp2.csproj",
+      "projectPath": "D:\\CSharpPractice\\ConsoleApp2\\ConsoleApp2.csproj",
       "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-      "outputPath": "D:\\Practice\\ConsoleApp2\\obj\\",
+      "outputPath": "D:\\CSharpPractice\\ConsoleApp2\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -41,7 +92,11 @@
       "frameworks": {
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
-          "projectReferences": {}
+          "projectReferences": {
+            "D:\\CSharpPractice\\Algorithms\\Algorithms.csproj": {
+              "projectPath": "D:\\CSharpPractice\\Algorithms\\Algorithms.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

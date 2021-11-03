@@ -98,14 +98,16 @@ namespace Delegate
 
             //測試MergeSort
             int[] numbers = { 1, 56, 98, 55, 4, 52, 6, 46, 4, 1, 2 };
-            Random random = new Random();
             TryMerge(numbers);
             Console.WriteLine($"---------");
-            int[] randomNumbers = new int[30];
+            int[] randomNumbers = new int[9];
+            Console.WriteLine("Random Numbers \n");
             for (int i = 0; i < randomNumbers.Length; i++)
             {
-                randomNumbers[i] = random.Next(0, 666);
+                randomNumbers[i] = MyRandom.MersenneTwisterNextFunction(0, 666);
+                Console.Write($"{randomNumbers[i]} ");
             }
+            Console.WriteLine("");
             TryMerge(randomNumbers);
             Console.WriteLine($"---------");
 

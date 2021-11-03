@@ -43,3 +43,4 @@ D:\CSharpPractice\Delegate\obj\Debug\netcoreapp3.1\Delegate.genruntimeconfig.cac
 D:\CSharpPractice\Delegate\bin\Debug\netcoreapp3.1\Algorithms.dll
 D:\CSharpPractice\Delegate\bin\Debug\netcoreapp3.1\Algorithms.pdb
 D:\CSharpPractice\Delegate\obj\Debug\netcoreapp3.1\Delegate.csproj.CopyComplete
+D:\CSharpPractice\Delegate\bin\Debug\netcoreapp3.1\MathNet.Numerics.dll

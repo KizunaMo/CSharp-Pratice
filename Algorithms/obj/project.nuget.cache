@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "Gn3T92ENAO9fp6QlUNMMYEmLWb6vk13j+Z/fKH2X/5lnXTdjKicykF1jUDa/HlU1nPXn/1q7fSxX6djdrCOkTQ==",
+  "dgSpecHash": "saEvojd+H4LwRyd3rIXEFyeK5NMlF4j8bvzwwE9vW/9GsCYmPh0XmZL4Nw7ABja3A24dU/+f7uWDL0zT4s3NOg==",
   "success": true,
   "projectFilePath": "D:\\CSharpPractice\\Algorithms\\Algorithms.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\user\\.nuget\\packages\\mathnet.numerics\\4.15.0\\mathnet.numerics.4.15.0.nupkg.sha512"
+  ],
   "logs": []
 }

@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "jIew5PgW092i80RHRGZfhQaT2PsTeRTW9p9moNeKZRhXNp1FhPjhHMlL4rlH/cFM+6wBhyBNgnWqTyOoR/dLpw==",
+  "dgSpecHash": "EYq/aflV+spdaoDuxz8FB1zMoRalftGPR4XysryvMGhDEGkmQo3jq89vHWGatKIJOXW3fxU4InN7b+6dxuIGWw==",
   "success": true,
-  "projectFilePath": "D:\\Practice\\ConsoleApp2\\ConsoleApp2.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "D:\\CSharpPractice\\ConsoleApp2\\ConsoleApp2.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\user\\.nuget\\packages\\mathnet.numerics\\4.15.0\\mathnet.numerics.4.15.0.nupkg.sha512"
+  ],
   "logs": []
 }

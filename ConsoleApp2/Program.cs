@@ -1,4 +1,5 @@
 ﻿using System;
+using Algorithms;
 
 namespace ConsoleApp2
 {
@@ -58,6 +59,22 @@ namespace ConsoleApp2
             //練習索引運算子
             Map map = new Map(100, 100);
             map[1, 1] = 10;
+
+            //RamdomTest
+            int[] numbers = new int[10];
+            for (int i = 0; i < numbers.Length; i++)
+            {
+                numbers[i] = MyRandom.Next(0,9);
+                Console.Write($"{numbers[i]} ");
+            }
+            Console.WriteLine("");
+
+            for (int i = 0; i < numbers.Length; i++)
+            {
+                numbers[i] = MyRandom.MyMersenneTwisterNextFunction(0, 9);
+                Console.Write($"{numbers[i]} ");
+            }
+
 
         }
 
