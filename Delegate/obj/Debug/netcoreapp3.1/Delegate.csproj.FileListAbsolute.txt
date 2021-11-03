@@ -12,3 +12,17 @@ D:\資策會\Unity線上課\C#線上課\Practice\Delegate\obj\Debug\netcoreapp3.
 D:\資策會\Unity線上課\C#線上課\Practice\Delegate\obj\Debug\netcoreapp3.1\Delegate.dll
 D:\資策會\Unity線上課\C#線上課\Practice\Delegate\obj\Debug\netcoreapp3.1\Delegate.pdb
 D:\資策會\Unity線上課\C#線上課\Practice\Delegate\obj\Debug\netcoreapp3.1\Delegate.genruntimeconfig.cache
+D:\Practice\Delegate\bin\Debug\netcoreapp3.1\Delegate.exe
+D:\Practice\Delegate\bin\Debug\netcoreapp3.1\Delegate.deps.json
+D:\Practice\Delegate\bin\Debug\netcoreapp3.1\Delegate.runtimeconfig.json
+D:\Practice\Delegate\bin\Debug\netcoreapp3.1\Delegate.runtimeconfig.dev.json
+D:\Practice\Delegate\bin\Debug\netcoreapp3.1\Delegate.dll
+D:\Practice\Delegate\bin\Debug\netcoreapp3.1\Delegate.pdb
+D:\Practice\Delegate\obj\Debug\netcoreapp3.1\Delegate.csproj.AssemblyReference.cache
+D:\Practice\Delegate\obj\Debug\netcoreapp3.1\Delegate.GeneratedMSBuildEditorConfig.editorconfig
+D:\Practice\Delegate\obj\Debug\netcoreapp3.1\Delegate.AssemblyInfoInputs.cache
+D:\Practice\Delegate\obj\Debug\netcoreapp3.1\Delegate.AssemblyInfo.cs
+D:\Practice\Delegate\obj\Debug\netcoreapp3.1\Delegate.csproj.CoreCompileInputs.cache
+D:\Practice\Delegate\obj\Debug\netcoreapp3.1\Delegate.dll
+D:\Practice\Delegate\obj\Debug\netcoreapp3.1\Delegate.pdb
+D:\Practice\Delegate\obj\Debug\netcoreapp3.1\Delegate.genruntimeconfig.cache

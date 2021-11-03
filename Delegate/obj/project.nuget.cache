@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "AaGV65two/9KGz+4u0QE8lqNNjYUGn+1QjKvG+7xJknHSfPYTw59MP/xmS2MvxmHL1X6jmacDayFHM+lT9q6Og==",
+  "dgSpecHash": "IY6PkljbkZCa7+ms67bVgBqdy1RbLOcb6jHjj2Fz2JOIdps7E7n+uv4a3QdC8auHJwc2E1jpqyi+58ga625ngQ==",
   "success": true,
-  "projectFilePath": "D:\\資策會\\Unity線上課\\C#線上課\\Practice\\Delegate\\Delegate.csproj",
+  "projectFilePath": "D:\\Practice\\Delegate\\Delegate.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
