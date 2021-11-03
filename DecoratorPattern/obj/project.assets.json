@@ -15,11 +15,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\資策會\\Unity線上課\\C#線上課\\Practice\\DecoratorPattern\\DecoratorPattern.csproj",
+      "projectUniqueName": "D:\\CSharpPractice\\DecoratorPattern\\DecoratorPattern.csproj",
       "projectName": "DecoratorPattern",
-      "projectPath": "D:\\資策會\\Unity線上課\\C#線上課\\Practice\\DecoratorPattern\\DecoratorPattern.csproj",
+      "projectPath": "D:\\CSharpPractice\\DecoratorPattern\\DecoratorPattern.csproj",
       "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-      "outputPath": "D:\\資策會\\Unity線上課\\C#線上課\\Practice\\DecoratorPattern\\obj\\",
+      "outputPath": "D:\\CSharpPractice\\DecoratorPattern\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",

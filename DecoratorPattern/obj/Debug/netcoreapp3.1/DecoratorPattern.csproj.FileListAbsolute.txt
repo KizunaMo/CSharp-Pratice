@@ -12,3 +12,17 @@ D:\資策會\Unity線上課\C#線上課\Practice\DecoratorPattern\obj\Debug\netc
 D:\資策會\Unity線上課\C#線上課\Practice\DecoratorPattern\obj\Debug\netcoreapp3.1\DecoratorPattern.dll
 D:\資策會\Unity線上課\C#線上課\Practice\DecoratorPattern\obj\Debug\netcoreapp3.1\DecoratorPattern.pdb
 D:\資策會\Unity線上課\C#線上課\Practice\DecoratorPattern\obj\Debug\netcoreapp3.1\DecoratorPattern.genruntimeconfig.cache
+D:\CSharpPractice\DecoratorPattern\bin\Debug\netcoreapp3.1\DecoratorPattern.exe
+D:\CSharpPractice\DecoratorPattern\bin\Debug\netcoreapp3.1\DecoratorPattern.deps.json
+D:\CSharpPractice\DecoratorPattern\bin\Debug\netcoreapp3.1\DecoratorPattern.runtimeconfig.json
+D:\CSharpPractice\DecoratorPattern\bin\Debug\netcoreapp3.1\DecoratorPattern.runtimeconfig.dev.json
+D:\CSharpPractice\DecoratorPattern\bin\Debug\netcoreapp3.1\DecoratorPattern.dll
+D:\CSharpPractice\DecoratorPattern\bin\Debug\netcoreapp3.1\DecoratorPattern.pdb
+D:\CSharpPractice\DecoratorPattern\obj\Debug\netcoreapp3.1\DecoratorPattern.csproj.AssemblyReference.cache
+D:\CSharpPractice\DecoratorPattern\obj\Debug\netcoreapp3.1\DecoratorPattern.GeneratedMSBuildEditorConfig.editorconfig
+D:\CSharpPractice\DecoratorPattern\obj\Debug\netcoreapp3.1\DecoratorPattern.AssemblyInfoInputs.cache
+D:\CSharpPractice\DecoratorPattern\obj\Debug\netcoreapp3.1\DecoratorPattern.AssemblyInfo.cs
+D:\CSharpPractice\DecoratorPattern\obj\Debug\netcoreapp3.1\DecoratorPattern.csproj.CoreCompileInputs.cache
+D:\CSharpPractice\DecoratorPattern\obj\Debug\netcoreapp3.1\DecoratorPattern.dll
+D:\CSharpPractice\DecoratorPattern\obj\Debug\netcoreapp3.1\DecoratorPattern.pdb
+D:\CSharpPractice\DecoratorPattern\obj\Debug\netcoreapp3.1\DecoratorPattern.genruntimeconfig.cache

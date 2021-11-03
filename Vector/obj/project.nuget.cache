@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "38oYab4Ev066ki+gkbogV24TO+z6M1pa4GycB0PbWgRzwwcvFoA6jVeDvM5/ho2v821YYd8NqydtALZW0JIdHw==",
+  "dgSpecHash": "6B2adhmw95a0eU351RqDwD3qgNnUcOlFxwOT3linK5T2kiiLVUe42EjMqPwLQgNkEhPdglmvdv+iaya6zxjNOw==",
   "success": true,
-  "projectFilePath": "D:\\資策會\\Unity線上課\\C#線上課\\Practice\\Vector\\Vector.csproj",
+  "projectFilePath": "D:\\CSharpPractice\\Vector\\Vector.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\user\\.nuget\\packages\\microsoft.netcore.platforms\\2.0.0\\microsoft.netcore.platforms.2.0.0.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\microsoft.win32.systemevents\\4.5.0\\microsoft.win32.systemevents.4.5.0.nupkg.sha512",

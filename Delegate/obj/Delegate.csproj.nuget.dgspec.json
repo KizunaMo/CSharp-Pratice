@@ -1,17 +1,77 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Practice\\Delegate\\Delegate.csproj": {}
+    "D:\\CSharpPractice\\Delegate\\Delegate.csproj": {}
   },
   "projects": {
-    "D:\\Practice\\Delegate\\Delegate.csproj": {
+    "D:\\CSharpPractice\\Algorithms\\Algorithms.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Practice\\Delegate\\Delegate.csproj",
-        "projectName": "Delegate",
-        "projectPath": "D:\\Practice\\Delegate\\Delegate.csproj",
+        "projectUniqueName": "D:\\CSharpPractice\\Algorithms\\Algorithms.csproj",
+        "projectName": "Algorithms",
+        "projectPath": "D:\\CSharpPractice\\Algorithms\\Algorithms.csproj",
         "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "D:\\Practice\\Delegate\\obj\\",
+        "outputPath": "D:\\CSharpPractice\\Algorithms\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\CSharpPractice\\Delegate\\Delegate.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\CSharpPractice\\Delegate\\Delegate.csproj",
+        "projectName": "Delegate",
+        "projectPath": "D:\\CSharpPractice\\Delegate\\Delegate.csproj",
+        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
+        "outputPath": "D:\\CSharpPractice\\Delegate\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -33,7 +93,11 @@
         "frameworks": {
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
-            "projectReferences": {}
+            "projectReferences": {
+              "D:\\CSharpPractice\\Algorithms\\Algorithms.csproj": {
+                "projectPath": "D:\\CSharpPractice\\Algorithms\\Algorithms.csproj"
+              }
+            }
           }
         },
         "warningProperties": {

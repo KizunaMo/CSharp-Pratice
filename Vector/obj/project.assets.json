@@ -495,11 +495,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\資策會\\Unity線上課\\C#線上課\\Practice\\Vector\\Vector.csproj",
+      "projectUniqueName": "D:\\CSharpPractice\\Vector\\Vector.csproj",
       "projectName": "Vector",
-      "projectPath": "D:\\資策會\\Unity線上課\\C#線上課\\Practice\\Vector\\Vector.csproj",
+      "projectPath": "D:\\CSharpPractice\\Vector\\Vector.csproj",
       "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-      "outputPath": "D:\\資策會\\Unity線上課\\C#線上課\\Practice\\Vector\\obj\\",
+      "outputPath": "D:\\CSharpPractice\\Vector\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",

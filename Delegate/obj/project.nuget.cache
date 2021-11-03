@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "IY6PkljbkZCa7+ms67bVgBqdy1RbLOcb6jHjj2Fz2JOIdps7E7n+uv4a3QdC8auHJwc2E1jpqyi+58ga625ngQ==",
+  "dgSpecHash": "CoIJYkYXzDdJ3FvoENfOUrdp6673wcRYebmeF/uOOOkxfyGQkzYNk3Ns6jYj6PsEYjqSSVuw8+Tye+6nM+/lDw==",
   "success": true,
-  "projectFilePath": "D:\\Practice\\Delegate\\Delegate.csproj",
+  "projectFilePath": "D:\\CSharpPractice\\Delegate\\Delegate.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

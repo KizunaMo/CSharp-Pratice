@@ -1,5 +1,7 @@
-﻿using System;
+﻿using Algorithms;
+using System;
 using System.Collections.Generic;
+
 
 namespace Delegate
 {
@@ -20,7 +22,6 @@ namespace Delegate
             mob.talk = () => { Console.WriteLine("Good Job"); };
             mob.ToTalk();
             Action action = SomeMethod;
-
             action();
 
             Action<int> action1 = SomeMethod;
@@ -61,37 +62,61 @@ namespace Delegate
             //練習2021/11/01
             List<Mob> mobs = new List<Mob>();
             mobs.Add(new Mob());
-            Action<Mob,int> setMobHp = GetMobHp;
-            setMobHp = (x, y) => { mobs[0].SetHp(y);};
-            setMobHp(mobs[0],900);
-            Func<Mob, int,int> getMobHp = GetMobHpFunc;
-            getMobHp = (x, y) => { return x.SetHp(y*10); };
-            
-            Console.WriteLine($"DeBug{getMobHp(mobs[0],999)}");
+            Action<Mob, int> setMobHp = GetMobHp;
+            setMobHp = (x, y) => { mobs[0].SetHp(y); };
+            setMobHp(mobs[0], 900);
+            Func<Mob, int, int> getMobHp = GetMobHpFunc;
+            getMobHp = (x, y) => { return x.SetHp(y * 10); };
+
+            Console.WriteLine($"DeBug{getMobHp(mobs[0], 999)}");
             mobs.Add(new Mob());
             Console.WriteLine($"{mobs[1].GetHp()}");
-            Console.WriteLine($"{getMobHp(mobs[1],3000)}");//透過Func功能直接修改
+            Console.WriteLine($"{getMobHp(mobs[1], 3000)}");//透過Func功能直接修改
+            Console.WriteLine($"---------");
 
             //練習跨類別傳遞
             Passenger passenger = new Passenger();
             Gossiping gossiping = new Gossiping();
             gossiping.Notify(passenger.RecrviveNews, " : 透過路人接收訊息的能力傳送一則訊息給他");
 
-            npc.AddOtherMp(mob.AddMp,100);//NPC給MOB加魔力
+            npc.AddOtherMp(mob.AddMp, 100);//NPC給MOB加魔力
             Console.WriteLine($"{mob.Mp}");
             mob.AddOtherMp(npc.AddMp, 30);
             Console.WriteLine($"{npc.Mp}");
+            Console.WriteLine($"---------");
 
             //練習 試著寫看看怪物掉落物品，背包存取物品的方法;
             Bag npcBag = new Bag();
-            mob.DropItem(npc.GetItem, Item.Product(Item.itemID.Apple),npcBag);
+            mob.DropItem(npc.GetItem, Item.Product(Item.itemID.Apple), npcBag);
             mob.DropItem(npc.GetItem, Item.Product(Item.itemID.Orange), npcBag);
             npcBag.ShowItems();
             Bag passengerBag = new Bag();
             mob.DropItem(passenger.GetItem, Item.Product(Item.itemID.Gun), passengerBag);
             passengerBag.ShowItems();
+            Console.WriteLine($"---------");
 
-            Console.WriteLine($"Check");
+
+            //測試MergeSort
+            int[] numbers = { 1, 56, 98, 55, 4, 52, 6, 46, 4, 1, 2 };
+            Random random = new Random();
+            TryMerge(numbers);
+            Console.WriteLine($"---------");
+            int[] randomNumbers = new int[30];
+            for (int i = 0; i < randomNumbers.Length; i++)
+            {
+                randomNumbers[i] = random.Next(0, 666);
+            }
+            TryMerge(randomNumbers);
+            Console.WriteLine($"---------");
+
+        }
+
+        private static void TryMerge(int[] numbers)
+        {
+            numbers.DoMergeSort();
+            foreach (int number in numbers)
+                Console.Write($"{number}  ");
+            Console.WriteLine($"Finish");
         }
 
         private static void SomeMethod()
@@ -133,7 +158,7 @@ namespace Delegate
         }
 
 
-        private static void GetMobHp(Mob mob,int mobHp)
+        private static void GetMobHp(Mob mob, int mobHp)
         {
             mob.SetHp(mobHp);
             Console.WriteLine($"設定該怪物血量為{mob.SetHp(mobHp)}");
@@ -145,7 +170,7 @@ namespace Delegate
         }
 
 
-       
+
 
     }
 }
