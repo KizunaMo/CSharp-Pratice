@@ -123,6 +123,13 @@ namespace Delegate
             Swapper.Swap(ref item1, ref item2);
             Console.WriteLine($"After Swap \nFirstItem : {item1.Name}  ,  SecondItem : {item2.Name}");
 
+            //物品掉落在地板 然後存放在“地板”內
+            Floor floor = new Floor();
+            floor.SaveDropItems(mob.OnlyDropItem(Item.RandomProduct));
+            floor.SaveDropItems(mob.OnlyDropItem(Item.RandomProduct));
+            npc.GetItemFrom(floor.GiveFirstItems);
+
+            Console.WriteLine($"---------");
         }
 
         private static void TryMerge(int[] numbers)

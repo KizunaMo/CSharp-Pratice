@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
+using Algorithms;
 
 namespace Delegate
 {
@@ -49,5 +50,11 @@ namespace Delegate
         {
             action(item,bag);
         }
+
+        public Item OnlyDropItem(Func<Item> func)
+        {
+            return func();
+        }
+
     }
 }

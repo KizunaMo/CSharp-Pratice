@@ -46,5 +46,10 @@ namespace Delegate
             Console.WriteLine($"NPC get {item.Name}!");
             this.bag.SaveItem(item,npcBag);
         }
+
+        public void GetItemFrom(Func<Item> function)
+        {
+            npcBag.Add(function());
+        }
     }
 }
