@@ -11,7 +11,7 @@ namespace Delegate
         public Action talk { set; private get; }
         private int hp = 1;
         private int mp = 10;
-        public int Mp { set { mp = Mp; } get { return mp; } }
+        public int Mp { set { mp = value; } get { return mp; } }
 
         public void ToTalk()
         {

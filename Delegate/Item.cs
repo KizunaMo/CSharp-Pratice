@@ -8,7 +8,7 @@ namespace Delegate
     class Item
     {
         private string name;
-        public string Name { set { name = Name; } get { return name; } }
+        public string Name { set { name = value; } get { return name; } }
 
         public Item()
         {

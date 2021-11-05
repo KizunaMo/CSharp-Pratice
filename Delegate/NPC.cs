@@ -11,7 +11,7 @@ namespace Delegate
         public Talk talk;
 
         private int mp = 0;
-        public int Mp { set { mp = Mp; } get { return mp; } }
+        public int Mp { set { mp = value; } get { return mp; } }
 
         private Bag bag;
         public List<Item> npcBag = new List<Item>();

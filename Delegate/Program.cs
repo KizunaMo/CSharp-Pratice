@@ -130,6 +130,43 @@ namespace Delegate
             npc.GetItemFrom(floor.GiveFirstItems);
 
             Console.WriteLine($"---------");
+
+            //練習 找狗
+            MyList<Dog> dogsList = new MyList<Dog>();
+            Dog dog1 = new Dog() { ID = 3,Name ="Little Dog"};
+            Dog dog2 = new Dog() { ID = 1,Name ="BigDog"};
+            dogsList.Add(dog1, 0);
+            dogsList.Add(dog2, 0);
+            int dogIndex = dogsList.Find(dog => dog.ID == 3);
+            if (dogIndex < 0)
+                Console.WriteLine("不存在");
+            else
+                Console.WriteLine($"那隻狗的名字是{dogsList[dogIndex].Name}");
+            dogIndex = dogsList.Find(dog => dog.ID == 1);
+            if (dogIndex < 0)
+                Console.WriteLine("不存在");
+            else
+                Console.WriteLine($"那隻狗的名字是{dogsList[dogIndex].Name}");
+            for (int i = 0; i < dogsList.Count; i++)
+            {
+                Console.WriteLine($"{dogsList[i].Name}");
+            }
+            //練習 數字List的增刪讀寫找
+            MyList<int> ints = new MyList<int>();
+            ints.Add(9, 0);
+            ints.Add(5, 0);
+            ints.Add(6, 0);
+            ints.PrintList();
+            ints.Insert(0, 666, 0);
+            ints.PrintList();
+            ints.Insert(2, 99, 0);
+            ints.PrintList();
+            ints.Add(33, 0);
+            ints.PrintList();
+            int tmpNumber = ints[1];
+            Console.WriteLine($"{tmpNumber}");
+            ints[1]= 30;
+            ints.PrintList();
         }
 
         private static void TryMerge(int[] numbers)
