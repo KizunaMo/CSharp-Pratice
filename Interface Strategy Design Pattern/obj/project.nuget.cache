@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "U6Ya5+/PXwV2/qfhN7ptn6cRDT2AYEbKhiG4ctGAapDtntKXYNp8G7rgEi3CvjlT90kcpXTecCSoZLf++TkEHA==",
+  "dgSpecHash": "2D63QNVMkFK9WDGL9sc7MfpUVoab83Co0a+i3Tufu7ot2ZFMAnLuKgaCYEjwg5Hr6tqyvMdGFX8o6Ybo4ZXyOw==",
   "success": true,
-  "projectFilePath": "D:\\資策會\\Unity線上課\\C#線上課\\Practice\\Interface Strategy Design Pattern\\Interface Strategy Design Pattern.csproj",
+  "projectFilePath": "D:\\CSharpPractice\\Interface Strategy Design Pattern\\Interface Strategy Design Pattern.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

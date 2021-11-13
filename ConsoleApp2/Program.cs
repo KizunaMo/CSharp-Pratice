@@ -74,10 +74,6 @@ namespace ConsoleApp2
                 numbers[i] = MyRandom.MersenneTwisterNextFunction(0, 9);
                 Console.Write($"{numbers[i]} ");
             }
-
-            
-
-
         }
 
         /// <summary>

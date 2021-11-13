@@ -15,11 +15,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\資策會\\Unity線上課\\C#線上課\\Practice\\Interface Strategy Design Pattern\\Interface Strategy Design Pattern.csproj",
+      "projectUniqueName": "D:\\CSharpPractice\\Interface Strategy Design Pattern\\Interface Strategy Design Pattern.csproj",
       "projectName": "Interface Strategy Design Pattern",
-      "projectPath": "D:\\資策會\\Unity線上課\\C#線上課\\Practice\\Interface Strategy Design Pattern\\Interface Strategy Design Pattern.csproj",
+      "projectPath": "D:\\CSharpPractice\\Interface Strategy Design Pattern\\Interface Strategy Design Pattern.csproj",
       "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-      "outputPath": "D:\\資策會\\Unity線上課\\C#線上課\\Practice\\Interface Strategy Design Pattern\\obj\\",
+      "outputPath": "D:\\CSharpPractice\\Interface Strategy Design Pattern\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
