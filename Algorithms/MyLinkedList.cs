@@ -19,6 +19,8 @@ namespace Algorithms
         Node root;
         Node tail;
 
+        public int Count {private set; get; }
+
         public MyLinkedList()
         {
             root = new Node();
@@ -56,7 +58,7 @@ namespace Algorithms
             newNode.nextNode = child;
             parent.nextNode = newNode;
             child.prevNode = newNode;
-
+            Count++;
             //newNode.prevNode = node;
             //newNode.nextNode = node.nextNode;
             //node.nextNode = newNode;
@@ -91,11 +93,13 @@ namespace Algorithms
 
         public Node Remove(Node node)
         {
+            if (node == null)
+                throw new Exception("Null");
             var parent = node.prevNode;
             var child = node.nextNode;
             parent.nextNode = child;
             child.prevNode = parent;
-
+            Count--;
             return node;
         }
 
