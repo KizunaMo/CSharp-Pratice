@@ -25,6 +25,16 @@ namespace Algorithms
                 root = new TreeNode(data);
         }
 
+        public void InOrderTraversal()
+        {
+            if (root != null)
+                root.InOrderTraversal();
+        }
+        public void PreOrderTraversal()
+        {
+            if (root != null)
+                root.PreOrderTraversal();
+        }
 
 
     }

@@ -87,6 +87,25 @@ namespace Algorithms
                     leftNode.Insert(value);
             }
         }
+
+        public void InOrderTraversal()
+        {
+            if (leftNode != null)
+                leftNode.InOrderTraversal();
+            Console.Write($"{data}   ");
+            if (rightNode != null)
+                rightNode.InOrderTraversal();
+        }
+
+        public void PreOrderTraversal()
+        {
+            Console.Write($"{data}  ");
+
+            if (leftNode != null)
+                leftNode.PreOrderTraversal();
+            if (rightNode != null)
+                rightNode.PreOrderTraversal();
+        }
     }
 }
 
